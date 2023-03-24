@@ -4,4 +4,9 @@
 
     // Print a word in uppercase using the following syntax: namespace\class::method(parameter)
     echo Text\Format::upperText('hola'); # this echo works with src/Format.php file, and it will return 'HOLA'
+
+    echo "<br>"; # In order to separate these echos, we use <br> HTML element
+
+    // Print a word in uppercase using by simply calling the function
+    echo upper('hola'); # upper() function doesn't exists, so it's created with src/helpers.php file
 ?>
